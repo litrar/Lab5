@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		var sentence;
+		var char;
+		sentence = window.prompt("input data");
+		char = window.prompt("input a char to search");
+
+		var num1 = sentence.indexOf(char, sentence);
+		var num2 = sentence.indexOf(char);
+		var num3 = sentence.indexOf(char, 3);
+		document.writeln(num1);
+		document.write("<br>");
+		document.writeln(num2);
+		document.write("<br>");
+		document.writeln(num3);
+		
+	</script>
+
+</body>
+</html>
